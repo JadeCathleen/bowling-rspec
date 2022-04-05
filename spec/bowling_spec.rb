@@ -1,6 +1,6 @@
 require 'bowling'
 
-Rspec.describe Bowling, "#score" do
+RSpec.describe Bowling, "#score" do
   context "with no strikes or spares" do
     it "sums up the pin count for each roll" do
       bowling = Bowling.new
